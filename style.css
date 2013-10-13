@@ -1,0 +1,39 @@
+#header, #subnavigation, #tipbar {
+	display:none;
+}
+
+.navLogo {
+	margin-right: 12px;
+	float: left;
+	width: 150px;
+}
+
+#navigationMenu {
+	float: left;
+	width: auto !important;
+	margin-top:2px;
+	height: 30px;
+}
+
+#navigationMenu li.selected, #navigationMenu li  {
+	background:transparent !important;
+}
+
+#navigationMenu li.selected a {
+	color : #6fac39 !important;
+	font-size: 14px;
+}
+
+#navigationMenu li a {
+	font-size: 14px !important;
+	color: #909090 !important;
+}
+
+#navigationMenu li {
+	background: transparent !important;
+	color: #000;
+	height: 40px;
+	min-width:0 !important;
+}
+
+
