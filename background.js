@@ -7,11 +7,11 @@ $(document).ready(function(){
 		
 		var content = $('body').scrollTop();
 		console.log(content);
-		if (content > 10) {
-			$('.view.reader .left').css('position','fixed');
+		if (content > 40) {
+			$('.view.reader .left').css({'position':'fixed', 'margin-top':'-40px'});
 			$('.view.reader .apps.large, .view.reader .apps.small').css('margin-left','204px');
 		} else {
-			$('.view.reader .left').css('position','relative');
+			$('.view.reader .left').css({'position':'relative','margin-top':'0'});
 			$('.view.reader .apps.large, .view.reader .apps.small').css('margin-left','0');
 		}
 		
