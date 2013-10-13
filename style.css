@@ -29,6 +29,10 @@
 	color: #909090 !important;
 }
 
+#navigationMenu li a:hover {
+	color: #000 !important;
+}
+
 #navigationMenu li {
 	background: transparent !important;
 	color: #000;
