@@ -2,6 +2,10 @@
 	display:none;
 }
 
+#tipbar.show {
+	display:block;
+}
+
 .navLogo {
 	margin-right: 12px;
 	float: left;
@@ -40,6 +44,17 @@
 	color: #000;
 	height: 40px;
 	min-width:0 !important;
+}
+#toggleTip {
+	display: block;
+	font: bold 13px Arial;
+	height: 41px;
+	line-height: 41px;
+	text-decoration: none;
+	color: #4c4c4c;
+	padding-left: 14px;
+	border-top: solid #d9d8d2 1px;
+	cursor:pointer;
 }
 
 

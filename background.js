@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 	$('#header .churchName').find('img').wrap('<a id="newLogo" href="http://rockypeak.tableproject.org">');
+	$('#addAppsButton').parent().after('<ul><li id="toggleTip">Show Tips</li></ul>');
 	
 	$(window).on('scroll', function () {
 		
@@ -31,6 +32,16 @@ $(document).ready(function(){
 	$('#header').remove();
 	
 	$('#navigationMenu li').removeClass("roundedTop6");
+
+	$('body').on('click', '#toggleTip', function (e) {
+		$('#tipbar').toggleClass('show');
+		
+		if ($(this).text().indexOf('Show') > -1 ) {
+			$(this).text('Hide Tips');
+		} else {
+			$(this).text('Show Tips');
+		}
+	});
 
 });
 
